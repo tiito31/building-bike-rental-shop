@@ -48,3 +48,6 @@ echo "$(echo ' M e ' | sed -E 's/^ *| *$//g')."
 ./bike-shop.sh
 ./bike-shop.sh
 ./bike-shop.sh
+echo "# learning build bike shop rental" >> README.md
+git init
+git add .
